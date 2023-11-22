@@ -1,0 +1,56 @@
+#--------------------------
+def count(li:list):
+    # Write your statements here
+    li_filter = []
+
+    for i in li:
+        if i not in li_filter:
+            li_filter.append(i)
+
+    result = list()
+    count = 0
+
+    for i in range(len(li_filter)):
+        count = li.count(li_filter[i])
+        result.append((count, li_filter[i]))
+
+    result = sorted(result)
+
+    so_lan_xuat_hien_it_nhat = result[0][0]
+
+    result_dict = {}
+
+    for count, item in result:
+        result_dict[item] = count
+
+    danh_sach_phan_tu_xuat_hien_it_nhat = []
+
+    for item, count in result_dict.items():
+        if count == so_lan_xuat_hien_it_nhat:
+            danh_sach_phan_tu_xuat_hien_it_nhat.append(item)
+    index_cua_nhung_phan_tu_xuat_hien_it_nhat = []
+    for i in danh_sach_phan_tu_xuat_hien_it_nhat:
+        index_cua_nhung_phan_tu_xuat_hien_it_nhat.append(li.index(i))
+
+    return li[max(index_cua_nhung_phan_tu_xuat_hien_it_nhat)]
+    # End your statements
+#end count
+# DO NOT ADD NEW OR CHANGE STATEMENTS IN THIS FUNCTION
+def inputList(li, n):
+    for i in range(n):
+        li.append(int(input(f"Element[{i}]=")))
+# end inputList
+#=====================DO NOT EDIT GIVEN STATEMENTS IN THE MAIN FUNCTION.=======================
+def main():
+  print("TEST Q3 (2 marks):");
+  li = list()
+  n = int(input("Enter number of elements : "))
+  inputList(li, n)
+  print("OUTPUT:")
+  e = count(li)
+  print(f"{e}")
+#end main
+#------------------------------------
+if __name__ == "__main__":
+  main()
+#============================================================================================

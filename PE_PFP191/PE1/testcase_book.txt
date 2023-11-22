@@ -1,0 +1,258 @@
+Test Case Code: tc1
+INPUT:
+1
+4
+The Midnight Library
+2019
+10.1000/17891220
+It ends with us
+2020
+10.2000/1234567
+Atomic Habits
+2018
+10.1000/1512512
+Killing the Mocking Bird
+1996
+10.1000/12124124
+
+CORRECT_OUTPUT:
+Book 1
+The Midnight Library
+2019
+10.1000/17891220
+Book 2
+It ends with us
+2020
+10.2000/1234567
+Book 3
+Atomic Habits
+2018
+10.1000/1512512
+Book 4
+Killing the Mocking Bird
+1996
+10.1000/12124124
+MARK:
+0.5
+
+
+ 
+
+Test Case Code: tc2
+INPUT:
+1
+4
+BookA
+2020
+10.1000/17891220
+BookE
+2020
+10.2000/1234567
+BookG
+2018
+10.1000/1512512
+BookC
+1996
+10.1000/12124124
+
+CORRECT_OUTPUT:
+Book 1
+BookA
+2020
+10.1000/17891220
+Book 2
+BookE
+2020
+10.2000/1234567
+Book 3
+BookG
+2018
+10.1000/1512512
+Book 4
+BookC
+1996
+10.1000/12124124
+MARK:
+0.5
+
+
+ 
+
+Test Case Code: tc3
+INPUT:
+2
+4
+The Midnight Library
+2019
+10.1000/17891220
+It ends with us
+2020
+10.2000/1234567
+Atomic Habits
+2018
+10.1000/1512512
+Killing the Mocking Bird
+1996
+10.1000/12124124
+
+CORRECT_OUTPUT:
+Book 1
+Atomic Habits
+2018
+10.1000/1512512
+Book 2
+It ends with us
+2020
+10.2000/1234567
+Book 3
+Killing the Mocking Bird
+1996
+10.1000/12124124
+Book 4
+The Midnight Library
+2019
+10.1000/17891220
+MARK:
+0.5
+
+Test Case Code: tc4
+INPUT:
+2
+4
+BookA
+2020
+10.1000/17891220
+BookE
+2020
+10.2000/1234567
+BookG
+2018
+10.1000/1512512
+BookC
+1996
+10.1000/12124124
+
+CORRECT_OUTPUT:
+Book 1
+BookA
+2020
+10.1000/17891220
+Book 2
+BookC
+1996
+10.1000/12124124
+Book 3
+BookE
+2020
+10.2000/1234567
+Book 4
+BookG
+2018
+10.1000/1512512
+MARK:
+0.5
+
+ 
+
+Test Case Code: tc5
+INPUT:
+3
+4
+The Midnight Library
+2019
+10.1000/17891220
+It ends with us
+2020
+10.2000/1234567
+Atomic Habits
+2018
+10.1000/1512512
+Killing the Mocking Bird
+1996
+10.1000/12124124
+
+CORRECT_OUTPUT:
+Book 1
+The Midnight Library
+2019
+10.1000/17891220
+Book 2
+Atomic Habits
+2018
+10.1000/1512512
+Book 3
+Killing the Mocking Bird
+1996
+10.1000/12124124
+MARK:
+0.5
+ 
+
+Test Case Code: tc6
+INPUT:
+3
+4
+BookA
+2020
+10.1000/17891220
+BookE
+2020
+10.2000/1234567
+BookG
+2018
+10.1000/1512512
+BookC
+1996
+10.1000/12124124
+
+CORRECT_OUTPUT:
+Book 1
+BookA
+2020
+10.1000/17891220
+Book 2
+BookG
+2018
+10.1000/1512512
+Book 3
+BookC
+1996
+10.1000/12124124
+MARK:
+0.5
+ 
+
+Test Case Code: tc7
+INPUT:
+4
+The little house on the prairie
+1927
+10.4000/12124124
+John London
+
+CORRECT_OUTPUT:
+1927
+10.4000/12124124
+The little house on the prairie
+John London
+MARK:
+0.5
+
+ 
+
+Test Case Code: tc8
+INPUT:
+4
+Once upon a time in American
+1910
+10.4000/1212-4124.16234
+Jack Green
+
+CORRECT_OUTPUT:
+1910
+10.4000/1212-4124.16234
+Once upon a time in American
+Jack Green
+MARK:
+0.5
+

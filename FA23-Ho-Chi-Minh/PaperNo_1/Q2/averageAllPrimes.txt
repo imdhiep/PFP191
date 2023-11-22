@@ -1,0 +1,48 @@
+def averageAllPrimes(x,y):
+    result = 0
+    # Begin your statements here
+    def is_prime(num):
+        count = 0
+        for i in range (1, num + 1):
+            if num % i == 0:
+                count = count + 1
+        if count == 2:
+            return num
+        else:
+            return None
+    def tb(first,last):
+        new_list = []
+        if first < last:
+            x = first
+            y = last
+        else:
+            y = first
+            x= last
+        for number in range (x, y+1):
+            c = is_prime(number)
+            if c is not None:
+                new_list.append(c)
+        if len(new_list) == 0:
+            return 0
+        return sum(new_list)/len(new_list)
+    if x != y:
+        result = tb(x,y)
+    else:
+        print('Invalid input')
+# End your statements
+    return result
+#end average
+
+#-----------------------------------------------------------------------------
+#=============DO NOT ADD NEW OR CHANGE STATEMENTS IN THE MAIN FUNCTION========
+def main():
+    print("Test Q2 (3 marks)")
+    x = int(input("x = "))
+    y = int(input("y = "))
+    print("OUTPUT:")
+    result = averageAllPrimes(x,y)
+    print(f"{result:.2f}")
+#end main
+if __name__ == '__main__':
+    main()
+

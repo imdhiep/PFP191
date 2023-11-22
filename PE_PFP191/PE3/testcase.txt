@@ -1,0 +1,531 @@
+Question Code: 71
+
+Solution Folder =StudentSolution\1\DungHAHE181479\1
+
+
+Test Case Code: tc1
+INPUT:
+1
+15
+10
+
+CORRECT_OUTPUT:
+***************
+*             *
+*             *
+*             *
+*             *
+*             *
+*             *
+*             *
+*             *
+***************
+
+
+MARK:
+0.5
+
+
+Test Case Code: tc2
+INPUT:
+2
+15
+10
+
+CORRECT_OUTPUT:
+         ***************
+        *             *
+       *             *
+      *             *
+     *             *
+    *             *
+   *             *
+  *             *
+ *             *
+***************
+
+
+MARK:
+0.5
+
+ 
+
+Test Case Code: tc3
+INPUT:
+3
+15
+10
+
+CORRECT_OUTPUT:
+***************
+***************
+***************
+***************
+***************
+***************
+***************
+***************
+***************
+***************
+
+
+MARK:
+0.5
+
+ 
+
+Test Case Code: tc4
+INPUT:
+4
+15
+10
+
+CORRECT_OUTPUT:
+***************
+ ***************
+  ***************
+   ***************
+    ***************
+     ***************
+      ***************
+       ***************
+        ***************
+         ***************
+
+MARK:
+0.5
+
+
+ 
+
+Test Case Code: tc5
+INPUT:
+5
+15
+10
+
+CORRECT_OUTPUT:
+         ***************
+        ***************
+       ***************
+      ***************
+     ***************
+    ***************
+   ***************
+  ***************
+ ***************
+***************
+
+MARK:
+1
+
+ 
+
+------------------ Question 2 ------------------
+
+Question Code: 73
+
+Solution Folder =StudentSolution\1\DungHAHE181479\2
+
+ 
+
+Test Case Code: tc1
+INPUT:
+1
+data1.txt
+
+CORRECT_OUTPUT:
+1000
+1984
+1754
+1800
+4534534
+878678867
+1211212
+5654456
+564767
+7889678678
+23243
+2155534
+67677
+6747657
+89878
+0987
+644664
+355355
+888989
+666
+677899
+44545454
+
+DATA_FILE:
+data1.txt
+1000 1984 1754 1800 4534534 878678867 1211212 5654456 564767 7889678678 23243 2155534 67677 6747657 89878 0987 644664 355355 888989 666 677899 44545454
+
+MARK:
+0.5
+
+
+ 
+
+Test Case Code: tc2
+INPUT:
+1
+data2.txt
+
+CORRECT_OUTPUT:
+234
+75432
+754436
+86213
+7548965
+135
+8645123
+6426753
+1243678422
+5467845823
+849253523
+7845234623523
+214763233
+76342345
+9357823
+92485924586
+733275459
+32857235319035
+
+DATA_FILE:
+data2.txt
+234 75432 754436 86213 7548965 135 8645123 6426753 1243678422 5467845823 849253523 7845234623523 214763233 76342345 9357823 92485924586 733275459 32857235319035
+
+MARK:
+0.5
+
+ 
+
+Test Case Code: tc3
+INPUT:
+2
+data1.txt
+
+CORRECT_OUTPUT:
+1000 = 2 x 2 x 2 x 5 x 5 x 5
+1984 = 2 x 2 x 2 x 2 x 2 x 2 x 31
+1754 = 2 x 877
+1800 = 2 x 2 x 2 x 3 x 3 x 5 x 5
+4534534 = 2 x 397 x 5711
+878678867 = 11 x 23 x 3473039
+1211212 = 2 x 2 x 19 x 15937
+5654456 = 2 x 2 x 2 x 61 x 11587
+564767 = 7 x 80681
+7889678678 = 2 x 7 x 563548477
+23243 = 11 x 2113
+2155534 = 2 x 41 x 97 x 271
+67677 = 3 x 17 x 1327
+6747657 = 3 x 7 x 17 x 41 x 461
+89878 = 2 x 44939
+987 = 3 x 7 x 47
+644664 = 2 x 2 x 2 x 3 x 26861
+355355 = 5 x 7 x 11 x 13 x 71
+888989 = 888989
+666 = 2 x 3 x 3 x 37
+677899 = 79 x 8581
+44545454 = 2 x 22272727
+
+DATA_FILE:
+data1.txt
+1000 1984 1754 1800 4534534 878678867 1211212 5654456 564767 7889678678 23243 2155534 67677 6747657 89878 0987 644664 355355 888989 666 677899 44545454
+
+MARK:
+1
+
+
+ 
+Test Case Code: tc4
+INPUT:
+2
+data2.txt
+
+CORRECT_OUTPUT:
+234 = 2 x 3 x 3 x 13
+75432 = 2 x 2 x 2 x 3 x 7 x 449
+754436 = 2 x 2 x 188609
+86213 = 73 x 1181
+7548965 = 5 x 31 x 113 x 431
+135 = 3 x 3 x 3 x 5
+8645123 = 8645123
+6426753 = 3 x 2142251
+1243678422 = 2 x 3 x 7 x 43 x 688637
+5467845823 = 11 x 71 x 7001083
+849253523 = 4889 x 173707
+7845234623523 = 3 x 3 x 11 x 17 x 97 x 409 x 117497
+214763233 = 5021 x 42773
+76342345 = 5 x 15268469
+9357823 = 19 x 67 x 7351
+92485924586 = 2 x 11 x 4203905663
+733275459 = 3 x 3 x 7 x 11639293
+32857235319035 = 5 x 89 x 359 x 205672657
+
+DATA_FILE:
+data2.txt
+234 75432 754436 86213 7548965 135 8645123 6426753 1243678422 5467845823 849253523 7845234623523 214763233 76342345 9357823 92485924586 733275459 32857235319035
+
+MARK:
+1
+
+
+ 
+
+------------------ Question 3 ------------------
+
+Question Code: 76
+
+Solution Folder =StudentSolution\1\DungHAHE181479\3
+
+ 
+
+Test Case Code: tc1
+INPUT:
+1
+4
+Nguyen The Hai
+21
+8.5
+Pham Quang Thai
+22
+8
+Tran Tat Dat
+21
+9
+Dinh Thanh Hoang
+22
+8.5
+
+CORRECT_OUTPUT:
+Student 1
+Nguyen The Hai
+21
+8.5
+Student 2
+Pham Quang Thai
+22
+8
+Student 3
+Tran Tat Dat
+21
+9
+Student 4
+Dinh Thanh Hoang
+22
+8.5
+MARK:
+0.5
+ 
+
+Test Case Code: tc2
+INPUT:
+1
+5
+Phung Quang Thong
+24
+7
+Nguyen The Giang
+26
+10
+Nguyen Thu An
+22
+8
+Can Hoang Duc
+21
+8.5
+Nguyen Chi Kien
+20
+9
+
+CORRECT_OUTPUT:
+Student 1
+Phung Quang Thong
+24
+7
+Student 2
+Nguyen The Giang
+26
+10
+Student 3
+Nguyen Thu An
+22
+8
+Student 4
+Can Hoang Duc
+21
+8.5
+Student 5
+Nguyen Chi Kien
+20
+9
+MARK:
+0.5
+
+
+ 
+
+Test Case Code: tc3
+INPUT:
+2
+4
+Nguyen The Hai
+21
+8.5
+Pham Quang Thai
+22
+8
+Tran Tat Dat
+21
+9
+
+Dinh Thanh Hoang
+22
+8.5
+CORRECT_OUTPUT:
+Student 1
+Dinh Thanh Hoang
+22
+8.5
+Student 2
+Nguyen The Hai
+21
+8.5
+Student 3
+Pham Quang Thai
+22
+8
+Student 4
+Tran Tat Dat
+21
+9
+MARK:
+1
+
+
+
+ 
+
+Test Case Code: tc4
+INPUT:
+2
+5
+Phung Quang Thong
+24
+7
+Nguyen The Giang
+26
+10
+Nguyen Thu An
+22
+8
+Can Hoang Duc
+21
+8.5
+Nguyen Chi Kien
+20
+9
+
+CORRECT_OUTPUT:
+Student 1
+Can Hoang Duc
+21
+8.5
+Student 2
+Nguyen Chi Kien
+20
+9
+Student 3
+Nguyen The Giang
+26
+10
+Student 4
+Nguyen Thu An
+22
+8
+Student 5
+Phung Quang Thong
+24
+7
+MARK:
+1
+
+
+ 
+
+Test Case Code: tc5
+INPUT:
+3
+4
+Nguyen The Hai
+21
+8.5
+Pham Quang Thai
+22
+8
+Tran Tat Dat
+21
+9
+Dinh Thanh Hoang
+22
+8.5
+
+CORRECT_OUTPUT:
+Student 1
+Tran Tat Dat
+21
+9
+Student 2
+Nguyen The Hai
+21
+8.5
+Student 3
+Dinh Thanh Hoang
+22
+8.5
+MARK:
+0.5
+
+
+ 
+
+Test Case Code: tc6
+INPUT:
+3
+5
+Phung Quang Thong
+24
+7
+Nguyen The Giang
+26
+10
+Nguyen Thu An
+22
+8
+Can Hoang Duc
+21
+8.5
+Nguyen Chi Kien
+20
+9
+
+CORRECT_OUTPUT:
+Student 1
+Nguyen The Giang
+26
+10
+Student 2
+Nguyen Chi Kien
+20
+9
+Student 3
+Can Hoang Duc
+21
+8.5
+MARK:
+0.5
+
+ 

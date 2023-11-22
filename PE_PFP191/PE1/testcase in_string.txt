@@ -1,0 +1,455 @@
+Test Case Code: tc1
+
+INPUT:
+
+1
+
+uuuuuuuvvvvvvvv@1,dfdfdfdfdf,@##$%@@@@#,IOIOIIIOIOOIOIOIO,ab5555
+
+CORRECT_OUTPUT:
+
+uuuuuuuvvvvvvvv@1
+
+dfdfdfdfdf
+
+ab5555
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 12124 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc10
+
+INPUT:
+
+5
+
+123nc,ad,124554,adfdnnc$#$,akcd
+
+CORRECT_OUTPUT:
+
+124554
+
+adfdnnc$#$
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 1336 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc11
+
+INPUT:
+
+6
+
+ABd1234@1,dddeerwer,@##$%@@@@#,USDIUSDHUSDHSDU,12ab
+
+CORRECT_OUTPUT:
+
+ABd1234@1
+
+dddeerwer
+
+@##$%@@@@#
+
+12ab
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 8780 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc12
+
+INPUT:
+
+6
+
+3445535C,fadsf#$%%^%%,1212121211212
+
+CORRECT_OUTPUT:
+
+3445535C
+
+fadsf#$%%^%%
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 15276 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc13
+
+INPUT:
+
+7
+
+ABd1234@1,dddeerwer,@##$%@@@@#,USDIUSDHUSDHSDU,12ab
+
+CORRECT_OUTPUT:
+
+ABd1234@1
+
+MARK:
+
+0.75
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+ 
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc14
+
+INPUT:
+
+7
+
+3445535C,fadsf#$%%^%%,1212121211212
+
+CORRECT_OUTPUT:
+
+MARK:
+
+0.75
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+ 
+
+=>Test result = PASSED
+
+ 
+
+=>QUESTION MARK = 0.75
+
+ 
+
+Test Case Code: tc2
+
+INPUT:
+
+1
+
+457,AVCDG,FDFAS#, AERc
+
+CORRECT_OUTPUT:
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 10160 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc3
+
+INPUT:
+
+2
+
+ABd1234@1,dddeerwer,@##$%@@@@#,USDIUSDHUSDHSDU,12ab,468aaa
+
+CORRECT_OUTPUT:
+
+ABd1234@1
+
+12ab
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 18972 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc4
+
+INPUT:
+
+2
+
+1234@#D,34DDD4,32
+
+CORRECT_OUTPUT:
+
+1234@#D
+
+34DDD4
+
+32
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 16496 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc5
+
+INPUT:
+
+3
+
+ABd1234@1,dddeerwer,@##$%@@@@#,USDIUSDHUSDHSDU,12ab
+
+CORRECT_OUTPUT:
+
+ABd1234@1
+
+USDIUSDHUSDHSDU
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 16976 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc6
+
+INPUT:
+
+3
+
+#%$#fdf,dafsdsad$#,5453242klj,453
+
+CORRECT_OUTPUT:
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 2328 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc7
+
+INPUT:
+
+4
+
+ABd1234@1,dddeerwer,@##$%@@@@#,USDIUSDHUSDHSDU,12ab
+
+CORRECT_OUTPUT:
+
+ABd1234@1
+
+@##$%@@@@#
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 5360 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc8
+
+INPUT:
+
+4
+
+#$#fds,dfasdfCC,jkjk(
+
+CORRECT_OUTPUT:
+
+#$#fds
+
+MARK:
+
+0.12
+
+ 
+
+Test case result:
+
++All output of the solution:
+
+Process 18564 timed out - 5000 ms
+
+=>Test result = FAILED
+
+ 
+
+=>QUESTION MARK = 0
+
+ 
+
+Test Case Code: tc9
+
+INPUT:
+
+5
+
+ABd1234@1,dddeerwer,@##$%@@@@#,USDIUSDHUSDHSDU,12ab
+
+CORRECT_OUTPUT:
+
+ABd1234@1
+
+dddeerwer
+
+@##$%@@@@#
+
+USDIUSDHUSDHSDU
+
+MARK:
+
+0.12
